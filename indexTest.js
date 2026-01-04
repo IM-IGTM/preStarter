@@ -1,4 +1,4 @@
-function high() {
+function prestarter() {
   // 입력한 이름 가져오기
   const input = document.getElementById("studentName");
   const name = input.value.trim();
@@ -11,7 +11,7 @@ function high() {
 
   // URL에 이름을 쿼리스트링으로 붙여서 이동
   const encodedName = encodeURIComponent(name);
-  window.location.href = `high/high.html?studentName=${encodedName}`;
+  window.location.href = `prestarter/prestarter.html?studentName=${encodedName}`;
 }
 function junior() {
   // 입력한 이름 가져오기
